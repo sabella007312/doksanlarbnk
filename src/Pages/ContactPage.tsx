@@ -256,7 +256,7 @@
 
 "use client";
 
-import React, { useState } from "react";
+import { useState } from "react";
 import { motion } from "framer-motion";
 import {
   Mail,
@@ -290,14 +290,49 @@ const ContactPage = () => {
     setFormData((prev) => ({ ...prev, [name]: value }));
   };
 
+  // const handleSubmit = async (e: React.FormEvent) => {
+  //   e.preventDefault();
+  //   setIsSubmitting(true);
+
+  //   try {
+  //     // Invoke your Supabase Edge Function
+  //     const { error } = await supabase.functions.invoke("smooth-endpoint", {
+  //       body: formData,
+  //     });
+
+  //     if (error) throw error;
+
+  //     toast.success(
+  //       "Inquiry transmitted successfully!, Our team will be in touch shortly.",
+  //     );
+  //     // Reset Form
+  //     setFormData({
+  //       fullName: "",
+  //       email: "",
+  //       inquiryType: "Private Wealth Management",
+  //       message: "",
+  //     });
+  //   } catch (error) {
+  //     toast.error("Failed to send inquiry. Please try again later.");
+  //   } finally {
+  //     setIsSubmitting(false);
+  //   }
+  // };
+
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
 
     try {
-      // Invoke your Supabase Edge Function
+      const payload = {
+        fullName: formData.fullName,
+        email: formData.email,
+        inquiryType: formData.inquiryType,
+        message: formData.message,
+      };
+
       const { error } = await supabase.functions.invoke("smooth-endpoint", {
-        body: formData,
+        body: payload, // <-- JSON
       });
 
       if (error) throw error;
@@ -305,7 +340,7 @@ const ContactPage = () => {
       toast.success(
         "Inquiry transmitted successfully!, Our team will be in touch shortly.",
       );
-      // Reset Form
+
       setFormData({
         fullName: "",
         email: "",
