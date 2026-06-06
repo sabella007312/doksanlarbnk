@@ -30,8 +30,8 @@ const Footer = () => (
         <div className="max-w-xs">
           {/* CRYSTAL GRADIENT LOGO: Metallic effect */}
           <h3 className="text-3xl font-black mb-6 tracking-tighter italic bg-linear-to-tr from-white via-blue-400 to-white bg-clip-text text-transparent drop-shadow-sm">
-            Dividend-{" "}
-            <span className="text-blue-600 not-italic font-light">Bank</span>
+            Doksanlarb-
+            <span className="text-blue-600 not-italic font-light">Finance</span>
             {/* <span className="text-blue-600 not-italic font-light">Bank</span> */}
           </h3>
 
@@ -167,7 +167,8 @@ const Footer = () => (
             <div className="flex items-start gap-3">
               <MapPin className="w-5 h-5 text-blue-500 shrink-0 mt-0.5" />
               <span>
-                Ziya Gökalp, Süleyman Demirel Blv No:7, 34490 Başakşehir <br />
+                Ziya Gökalp, Süleyman Demirel Blv No:75B, 34490 Başakşehir{" "}
+                <br />
                 İstanbul, Türkiye{" "}
               </span>
             </div>
@@ -179,7 +180,7 @@ const Footer = () => (
                 href="tel:+905349534720"
                 className="hover:text-white transition-colors"
               >
-                +90 534 953 47 20{" "}
+                +90 534 393 88 40{" "}
               </a>
             </div>
 
@@ -190,7 +191,7 @@ const Footer = () => (
                 href="mailto:support@nexussaving.com"
                 className="hover:text-white transition-colors"
               >
-                info@dividendbks.com
+                info@doksanlarb.com
               </a>
             </div>
           </address>
@@ -200,7 +201,8 @@ const Footer = () => (
       {/* Copyright */}
       <div className="border-t border-slate-600 mt-12 pt-8 text-center text-slate-400">
         <p>
-          &copy; {new Date().getFullYear()} Dividend-Bank. All rights reserved
+          &copy; {new Date().getFullYear()} Doksanlarb-Finance. All rights
+          reserved
         </p>
       </div>
     </div>

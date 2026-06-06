@@ -360,8 +360,8 @@ export default function Services() {
                 </span>
               </h2>
               <p className="text-blue-100/70 max-w-xl mx-auto mb-14 text-lg font-medium leading-relaxed">
-                Join the global elite who rely on Dividend-Bank for cross-border
-                capital management and asset protection.
+                Join the global elite who rely on Doksanlarb-Finance for
+                cross-border capital management and asset protection.
               </p>
               <Link
                 to="/contact"
