@@ -226,7 +226,7 @@ const ClientDashboard = () => {
             <ShieldCheck size={24} />
           </div>
           <span className="text-xl font-black uppercase italic tracking-tighter">
-            Doksanlar
+            Doksanlarb-Finance
           </span>
         </div>
         <nav className="flex-1 space-y-3">
@@ -449,7 +449,7 @@ const ATMCard = ({ type, number, expiry, color }: any) => (
           {type}
         </span>
         <span className="text-lg font-bold italic tracking-tighter">
-          Nexus-Finance
+          Doksanlarb-Finance
         </span>
       </div>
       <div className="w-10 h-8 bg-amber-400/20 rounded-md border border-amber-400/30"></div>
