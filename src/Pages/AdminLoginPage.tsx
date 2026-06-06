@@ -51,7 +51,7 @@ const AdminLoginPage = () => {
             Admin Portal
           </h1>
           <p className="text-slate-400 text-sm mt-1">
-            Nexus-Finance Internal System
+            Doksanlarb-Finance Internal System
           </p>
         </div>
 
