@@ -2,7 +2,7 @@
 import { useState, useEffect } from "react";
 import { Link, NavLink } from "react-router-dom";
 import {
-  Landmark,
+  // Landmark,
   Menu,
   X,
   ChevronRight,
@@ -43,9 +43,14 @@ const Navbar = () => {
       <div className="max-w-450 mx-auto px-6 md:px-12 h-full flex items-center justify-between">
         {/* LOGO */}
         <Link to="/" className="flex items-center gap-3 z-130">
-          <div className="bg-blue-700 p-1.5 rounded-lg shadow-lg shadow-blue-700/20">
+          <img
+            src="favicon.png"
+            alt="Doksanlarb-Finance Logo"
+            className="w-15 h-18 sm:w-12 sm:h-12 md:w-25 md:h-20 object-contain"
+          />
+          {/* <div className="bg-blue-700 p-1.5 rounded-lg shadow-lg shadow-blue-700/20">
             <Landmark className="text-white w-5 h-5 md:w-6 md:h-6" />
-          </div>
+          </div> */}
           {/* <span className="text-lg md:text-2xl font-black tracking-tighter text-slate-900 uppercase">
             Doksanlar<span className="text-blue-700 italic">Bank</span>
           </span> */}

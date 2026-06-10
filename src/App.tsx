@@ -42,12 +42,27 @@ function App() {
             <Route path="/update-password" element={<UpdatePassword />} />
             <Route path="/wealth-management" element={<WealthManagement />} />
             <Route path="/insurance-services" element={<InsuranceServices />} />
+            {/* <Route
+              path="*"
+              element={
+                <h1 className="text-center text-3xl mt-20 text-gray-700">
+                  404 - Page Not Found
+                </h1>
+              }
+            /> */}
+
             <Route
               path="*"
               element={
-                <h1 className="text-center text-3xl mt-20">
-                  404 - Page Not Found
-                </h1>
+                <div className="flex flex-col items-center justify-center min-h-[60vh] sm:min-h-[80vh] px-4 text-center select-none">
+                  <h1 className="text-2xl sm:text-3xl md:text-4xl font-extrabold tracking-tight text-slate-800 dark:text-slate-200">
+                    404 - Page Not Found
+                  </h1>
+                  <p className="mt-2 text-sm sm:text-base text-slate-500 max-w-xs sm:max-w-sm">
+                    The page you are looking for doesn't exist or has been
+                    moved.
+                  </p>
+                </div>
               }
             />
             <Route path="/admin-login" element={<AdminLoginPage />} />
