@@ -118,7 +118,7 @@ const SignupPage = () => {
           <Link to="/" className="flex items-center gap-3 pt-15">
             <Landmark className="text-blue-500 w-12 h-12" />
             <span className="text-3xl font-black text-white tracking-tighter uppercase">
-              Dividend-Bank
+              Doksanlarb<span className="text-blue-300 italic">-Finance</span>
             </span>
           </Link>
 
@@ -133,7 +133,9 @@ const SignupPage = () => {
             </h2>
             <p className="text-slate-400 text-xl max-w-md leading-relaxed">
               Experience the pinnacle of institutional private banking. Secure
-              your legacy with Nexus-Finance global assets.
+              your legacy with Doksanlarb-
+              <span className="text-blue-300 italic">Finance</span> global
+              assets.
             </p>
           </motion.div>
           <div className="h-1.5 w-24 bg-blue-600 rounded-full"></div>
@@ -350,7 +352,7 @@ const SignupPage = () => {
                     </div>
                   </div>
 
-                  <div className="md:col-span-2 space-y-1">
+                  {/* <div className="md:col-span-2 space-y-1">
                     <label className="text-[10px] font-black text-blue-600 uppercase tracking-[0.2em] ml-1">
                       Opening Deposit (USD)
                     </label>
@@ -377,7 +379,7 @@ const SignupPage = () => {
                         placeholder="0.00"
                       />
                     </div>
-                  </div>
+                  </div> */}
 
                   <div className="space-y-1">
                     <label className="text-[10px] font-black text-slate-400 uppercase tracking-widest ml-1">
