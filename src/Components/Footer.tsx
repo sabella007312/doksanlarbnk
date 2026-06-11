@@ -246,7 +246,7 @@ const Footer = () => {
           <div className="flex flex-col space-y-6 sm:col-span-2 md:col-span-1">
             <span className="flex flex-row items-center gap-3">
               <img
-                src="public/favicon.png"
+                src="favicon.png"
                 alt="Doksanlarb-Finance Logo"
                 className="w-10 h-10 drop-shadow-xl rounded-full bg-linear-to-tr from-blue-500 to-indigo-500 p-0.5"
               />
