@@ -18,7 +18,7 @@ import {
   MapPin,
   Phone,
   CheckCircle2,
-  Wallet,
+  // Wallet,
   ArrowLeft,
 } from "lucide-react";
 
