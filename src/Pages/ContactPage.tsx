@@ -289,6 +289,9 @@ const ContactPage = () => {
                   <option>Corporate Liquidity</option>
                   <option>Digital Assets & Escrow</option>
                   <option>Institutional Lending</option>
+                  <option>Login Issues</option>
+                  <option>Privacy Concerns</option>
+                  <option>Others</option>
                 </select>
               </div>
 
