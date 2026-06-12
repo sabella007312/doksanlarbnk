@@ -328,7 +328,12 @@ const ContactPage = () => {
       {/* FOOTER CTA */}
       <section className="bg-slate-50 py-20 border-t border-slate-100">
         <div className="container mx-auto px-6 text-center">
-          <Landmark className="mx-auto text-blue-600 w-12 h-12 mb-6" />
+          <img
+            src="/favicon.png"
+            alt="Company Logo"
+            className="mx-auto text-blue-600 mb-6 w-12 h-12 sm:w-15 sm:h-15 md:w-20 md:h-20 lg:w-25 lg:h-25"
+          />
+          {/* <Landmark className="mx-auto text-blue-600 w-12 h-12 mb-6" /> */}
           <h2 className="text-3xl font-black text-slate-900 tracking-tighter uppercase mb-4">
             Secure your assets today.
           </h2>
