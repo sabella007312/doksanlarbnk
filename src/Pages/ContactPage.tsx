@@ -8,7 +8,7 @@ import {
   ArrowRight,
   Globe,
   ShieldCheck,
-  Landmark,
+  // Landmark,
 } from "lucide-react";
 import { Link } from "react-router-dom";
 import GlobalTicker from "../Components/Locations";
