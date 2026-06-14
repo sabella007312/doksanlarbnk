@@ -183,7 +183,7 @@ export default function Services() {
             </h1>
 
             <p className="text-lg md:text-xl text-slate-400 mb-12 leading-relaxed max-w-2xl font-medium">
-              Dividend Bank provides the infrastructure for your global
+              Doksanlarb-Finance provides the infrastructure for your global
               lifestyle. Our card suites are engineered for resilience, speed,
               and absolute security.
             </p>
