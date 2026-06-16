@@ -477,7 +477,6 @@ import { supabase } from "../hooks/supabase";
 import { motion, AnimatePresence } from "framer-motion";
 import { toast } from "sonner";
 import {
-  Landmark,
   Lock,
   User,
   Mail,
@@ -591,18 +590,24 @@ const SignupPage = () => {
           className="absolute inset-0 w-full h-full object-cover"
           alt="Doksanlar Interior"
         />
-        <div className="relative z-10 p-16 flex flex-col justify-between h-full w-full">
-          <Link to="/" className="flex items-center gap-3 pt-15">
+        <div className="relative z-10 p-16  justify-between h-full w-full">
+          {/* <Link to="/" className="flex items-center gap-3 pt-15">
+            <img
+              src="/favicon.png"
+              alt="Doksanlar Logo"
+              className="w-12 h-12"
+            />
             <Landmark className="text-blue-500 w-12 h-12" />
             <span className="text-3xl font-black text-white tracking-tighter uppercase">
               Doksanlarb<span className="text-blue-300 italic">-Finance</span>
             </span>
-          </Link>
+          </Link> */}
 
           <motion.div
             initial={{ opacity: 0, x: -50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ delay: 0.3 }}
+            className="py-50"
           >
             <h2 className="text-7xl font-black text-white tracking-tighter leading-none mb-6">
               JOIN THE <br />

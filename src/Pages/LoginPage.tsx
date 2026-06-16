@@ -6,7 +6,7 @@ import { supabase } from "../hooks/supabase";
 import { motion } from "framer-motion";
 import { toast } from "sonner";
 import {
-  Landmark,
+  // Landmark,
   Lock,
   User,
   Eye,
@@ -128,14 +128,14 @@ const LoginPage = () => {
           alt="Doksanlarb-Finance HQ"
         />
         <div className="relative z-10 p-12 xl:p-20 flex flex-col justify-between h-full w-full">
-          <Link to="/" className="flex items-center gap-3 group pt-18">
+          {/* <Link to="/" className="flex items-center gap-3 group pt-18">
             <Landmark className="text-blue-500 w-10 h-10 group-hover:rotate-12 transition-transform" />
             <span className="text-2xl xl:text-3xl font-black text-white tracking-tighter uppercase ">
               Doksanlarb-Finance{" "}
             </span>
-          </Link>
+          </Link> */}
 
-          <div className="max-w-xl">
+          <div className="max-w-xl py-50">
             <h2 className="text-5xl xl:text-7xl font-black text-white tracking-tighter leading-[0.85] mb-6">
               Institutional <br />
               <span className="text-blue-500 italic">Access.</span>
@@ -158,12 +158,12 @@ const LoginPage = () => {
       {/* RIGHT FORM SIDE */}
       <section className="w-full lg:w-1/2 flex items-center justify-center p-4 sm:p-8 md:p-12 lg:p-16 bg-slate-50 min-h-screen">
         <div className="w-full max-w-md">
-          <div className="flex lg:hidden items-center justify-center gap-2 mb-8">
+          {/* <div className="flex lg:hidden items-center justify-center gap-2 mb-8">
             <Landmark className="text-blue-600 w-8 h-8" />
             <span className="text-xl font-black text-slate-900 tracking-tighter uppercase">
               Doksanlarb-Finance
             </span>
-          </div>
+          </div> */}
 
           <motion.div
             initial={{ opacity: 0, scale: 0.95 }}
@@ -175,7 +175,8 @@ const LoginPage = () => {
                 Sign In
               </h1>
               <p className="text-slate-500 text-sm sm:text-base font-medium">
-                Enter your credentials to access your vault.
+                Enter your official credentials to access your private banking
+                portal.
               </p>
             </div>
 

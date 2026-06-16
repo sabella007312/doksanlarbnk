@@ -445,19 +445,19 @@ const Footer = () => {
           <p>&copy; {currentYear} Doksanlarb-Finance. All rights reserved.</p>
           <div className="flex items-center gap-6">
             <Link
-              to="/privacy"
+              to="/privacy-policy"
               className="hover:text-slate-300 transition-colors"
             >
               Privacy Policy
             </Link>
             <Link
-              to="/terms"
+              to="/terms&service"
               className="hover:text-slate-300 transition-colors"
             >
               Terms of Service
             </Link>
             <Link
-              to="/cookies"
+              to="/cookie-settings"
               className="hover:text-slate-300 transition-colors"
             >
               Cookies Settings
