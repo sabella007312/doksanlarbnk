@@ -167,10 +167,10 @@ const ContactPage = () => {
                     +90 534 393 8840
                   </a> */}
                   <a
-                    href="tel:+44 7480299505"
+                    href="tel:+44 70580267955"
                     className="text-slate-500 text-sm mt-1 hover:text-blue-600 transition-colors block"
                   >
-                    +44 7480299505
+                    +44 70580267955
                   </a>
                 </div>
               </div>
