@@ -186,7 +186,7 @@ const Footer = () => {
             <address className="not-italic text-sm text-slate-400 space-y-4">
               {/* Interactive Address Map Link */}
 
-              <a
+              {/* <a
                 href="https://maps.google.com"
                 target="_blank"
                 rel="noreferrer"
@@ -199,9 +199,9 @@ const Footer = () => {
                     England, United Kingdom <ArrowUpRight className="w-3 h-3" />
                   </span>
                 </span>
-              </a>
+              </a> */}
 
-              {/* <a
+              <a
                 href="https://maps.google.com"
                 target="_blank"
                 rel="noreferrer"
@@ -214,10 +214,10 @@ const Footer = () => {
                     İstanbul, Türkiye <ArrowUpRight className="w-3 h-3" />
                   </span>
                 </span>
-              </a> */}
+              </a>
 
               {/* Phone */}
-              {/* <div className="flex items-center gap-3">
+              <div className="flex items-center gap-3">
                 <Phone className="w-4 h-4 text-blue-500 shrink-0" />
                 <a
                   href="tel:+905343938840"
@@ -225,9 +225,9 @@ const Footer = () => {
                 >
                   +90 534 393 88 40
                 </a>
-              </div> */}
+              </div>
 
-              <div className="flex items-center gap-3">
+              {/* <div className="flex items-center gap-3">
                 <Phone className="w-4 h-4 text-blue-500 shrink-0" />
                 <a
                   href="tel:+44 70580267955"
@@ -235,7 +235,7 @@ const Footer = () => {
                 >
                   +44 70580267955
                 </a>
-              </div>
+              </div> */}
 
               {/* Email */}
               <div className="flex items-center gap-3">

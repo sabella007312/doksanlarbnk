@@ -160,18 +160,18 @@ const ContactPage = () => {
                   <h4 className="font-black text-slate-900 text-sm uppercase">
                     24/7 Priority Line
                   </h4>
-                  {/* <a
+                  <a
                     href="tel:+90 534 393 8840"
                     className="text-slate-500 text-sm mt-1 hover:text-blue-600 transition-colors block"
                   >
                     +90 534 393 8840
-                  </a> */}
-                  <a
+                  </a>
+                  {/* <a
                     href="tel:+44 70580267955"
                     className="text-slate-500 text-sm mt-1 hover:text-blue-600 transition-colors block"
                   >
                     +44 70580267955
-                  </a>
+                  </a> */}
                 </div>
               </div>
 
@@ -200,12 +200,12 @@ const ContactPage = () => {
                   <h4 className="font-black text-slate-900 text-sm uppercase">
                     Global HQ
                   </h4>
-                  {/* <p className="text-slate-500 text-sm mt-1">
-                    İstanbul, Türkiye
-                  </p> */}
                   <p className="text-slate-500 text-sm mt-1">
-                    England, United Kingdom.
+                    İstanbul, Türkiye
                   </p>
+                  {/* <p className="text-slate-500 text-sm mt-1">
+                    England, United Kingdom.
+                  </p> */}
                 </div>
               </div>
 
